@@ -36,7 +36,7 @@ test: ServerCountThrees
 	cp $(DataDir)/threesData.bin $(NewDir)
 	cp ServerCountThrees $(NewDir)
 	cd $(NewDir) && ./ServerCountThrees	
-	cd $(SrcDir)
+	
 
 # This target will compile all source files
 ServerCountThrees:
